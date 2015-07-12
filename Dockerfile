@@ -1,5 +1,5 @@
 FROM debian:jessie
-MAINTAINER Jérôme Fafchamps <smug@smug.fr>
+MAINTAINER Jérôme Fafchamps (sMug [replicatorbe]) <smug@smug.fr>
 RUN apt-get update && \
     apt-get upgrade -y && \ 
     apt-get install -y build-essential libmysqlclient-dev zip unzip gcc wget && \
